@@ -1,5 +1,6 @@
 
-# PawsIn
+# PawsIn.
+<img src="./public/paws-in.png" width="300" height="200"/>
 
 A pet friendly Social media application to help pet owners and their furry friend stay connected with other pet lovers!
 
@@ -9,7 +10,8 @@ A pet friendly Social media application to help pet owners and their furry frien
 - [@ErnestoCarrillo](https://github.com/Ernie0921/PawsIn)
 - [@Dr.Vicki]()
   
-![Logo](./public/paws-in.png)
+
+
 
     
 ## Demo
