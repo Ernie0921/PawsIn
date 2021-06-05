@@ -1,13 +1,18 @@
 import React from 'react'
 import './Header.css';
+import PetsIcon from '@material-ui/icons/Pets';
 
 function Header() {
     return (
         <div className='header'>
-            <h1>this is header </h1>
-
+          
             <div className='header__left'>
-            
+                <img src="https://www.zigzagadvertising.co.uk/wp-content/uploads/2018/06/paws_logo_paw_a.jpg" alt="" />
+
+                <div className="header__search">
+                <PetsIcon />
+                    <input type="text" />
+                </div>
             </div>
 
             <div className='header__right'>
