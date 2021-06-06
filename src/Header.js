@@ -14,7 +14,7 @@ function Header() {
         <div className='header'>
           
             <div className='header__left'>
-                <img src="https://www.zigzagadvertising.co.uk/wp-content/uploads/2018/06/paws_logo_paw_a.jpg" alt="" />
+                <img src="https://picsvg.com/svg/gnUbH401.svg?v=11026" alt="" />
 
                 <div className="header__search">
                 <PetsIcon />
