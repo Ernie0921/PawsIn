@@ -14,7 +14,7 @@ function Header() {
         <div className='header'>
           
             <div className='header__left'>
-                <img src="https://picsvg.com/svg/gnUbH401.svg?v=11026" alt="" />
+                <img src="https://picsvg.com/svg/ZVpAP2.jpg" alt="" />
 
                 <div className="header__search">
                 <PetsIcon />
