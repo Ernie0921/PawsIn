@@ -12,8 +12,7 @@ A pet friendly Social media application to help pet owners and their furry frien
   
     
 ## Demo
-
-- ![Link](https://pawsin-89129.web.app/)
+[Link](https://pawsin-89129.web.app)
 
 ![](./public/pawsId.gif)
 
