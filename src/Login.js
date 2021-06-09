@@ -15,16 +15,16 @@ function Login() {
     const loginToApp = (e) => {
         e.preventDefault();
 
-        auth.signInWithEmailAndPassword(email, password)
-        .then(userAuth => {
-                dispatch(login({
-                    email: userAuth.user.email,
-                    uid: userAuth.user.uid,
-                    displayName: userAuth.user.displayName,
-                    profuleUrl: userAuth.user.displayName,
-                })
-            );
-        }).catch((error) => alert(error));
+        // auth.signInWithEmailAndPassword(email, password)
+        // .then(userAuth => {
+        //         dispatch(login({
+        //             email: userAuth.user.email,
+        //             uid: userAuth.user.uid,
+        //             displayName: userAuth.user.displayName,
+        //             profileUrL: userAuth.user.displayName,
+        //         })
+        //     );
+        // }).catch((error) => alert(error));
     }
 
     const register = () => {
