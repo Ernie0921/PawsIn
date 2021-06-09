@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    color: rgb(173, 90, 35);
+    color: white;
     cursor: pointer;
 }
 
 .headerOption:hover {
-    color: rgb(243, 87, 9);
+    color: orange;
 }
 
 .headerOption__title { /* icons on the top size*/
@@ -16,9 +16,7 @@
     font-weight: 400;
 }
 
-.headerOption:hover{
-    color:rgb(134, 120, 113);
-}
+
 
 .headerOption__icon {
     object-fit: contain;

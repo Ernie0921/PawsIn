@@ -1,10 +1,26 @@
+
+
 .app{
-  background-color: #faf3d9;
+  background-color: #f5a8a8; 
+  background-image: url('https://cdn.shopify.com/s/files/1/0171/8393/2470/products/pet-paw-print-ink-background-step-and-repeat-backdrops-photography-backdrops-sh19013.png?v=1568036058');
+  object-fit: fill;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+  /* align-items: center;*/
 }
 
 .app__body {
   display: flex;
+  margin-top: 35px;
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0171/8393/2470/products/pet-paw-print-ink-background-step-and-repeat-backdrops-photography-backdrops-sh19013.png?v=1568036058');
+  object-fit: fill;
+  max-width: 100%;
+  max-height: 100vh;
+
 }

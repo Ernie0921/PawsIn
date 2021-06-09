@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './Header.css';
 import PetsIcon from '@material-ui/icons/Pets';
 import HeaderOption from './HeaderOption.js';
@@ -8,8 +7,19 @@ import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import ChatIcon from "@material-ui/icons/Chat";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import { useDispatch, useSelector } from "react-redux";
+import { auth } from './firebase';
+import { logout, selectUser } from "./features/counter/UserSlice"
  
 function Header() {
+    // const user = useSelector(selectUser)
+    const dispatch = useDispatch();
+
+    const logoutOfApp = () => {
+        dispatch(logout())
+        auth.signOut();
+    };
+    
     return (
         <div className='header'>
           
@@ -18,7 +28,7 @@ function Header() {
 
                 <div className="header__search">
                 <PetsIcon />
-                    <input type="text" />
+                    <input placeholder="Search" type="text" />
                 </div>
             </div>
 
@@ -28,8 +38,8 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar="https://pics.me.me/thumb_cute-doge-meme-doge-dog-doggo-pupper-dogecoin-art-50112985.png" title="Me" />
-
+                <HeaderOption avatar={true} onClick={logoutOfApp}   title="Me" />
+                
             </div>
             
         </div>
