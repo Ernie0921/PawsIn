@@ -10,23 +10,12 @@ A pet friendly Social media application to help pet owners and their furry frien
 - [@ErnestoCarrillo](https://github.com/Ernie0921/PawsIn)
 - [@Dr.Vicki]()
   
-
-
-
     
 ## Demo
 
 Insert gif or link to demo
 
-  
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
+ 
   
 ## Feedback
 
@@ -40,23 +29,14 @@ Creating this project helped me sharpen my knowledge on Reactjs and Redux. Plann
   
 ## Tech Stack
 
-**Client:** React, Redux, Firebase
+**Client:** React, Redux, Firebase, Material-ui
 
-**Server:** Node, Express
 
   
 ## Deployment
 
 Cloudflare was used for the Hosting and Deployment
 ```
-
-  
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
 
   
 ## Usage/Examples
